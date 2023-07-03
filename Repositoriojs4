@@ -1,0 +1,56 @@
+//atividade 1.1
+var numeros = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+console.log(numeros.lenght)
+
+console.log(numeros[1], numeros[3], numeros[5], numeros8)
+
+//atividade 1.2
+var filme = ['Os incríveis', 'A era do gelo', 'Minions', 'O meu malvado favorito', 'Frozen']
+console.log(filme.length)
+
+console.log(filme[2], filme[4])
+
+//atividade1.3
+
+var musica = ['Na vaqueijada eu chorei', ' Hoje dói', 'Beijo foda', 'Tem cabaré essa noite', 'Pelados', 'Quem é o louco entre nós']
+console.log(musica.length)
+
+console.log(musica[1], musica[2], musica[6], musica[8])
+console.log(musica[8])
+
+//atividade 2.1
+var valores = [25, 23, 11, 55, 30, 6, 4, 21, 34, 89, 56];
+valores.sort(function(a, b) {
+  return a - b;
+});
+console.log(valores);
+
+//atividade 2.2, Letra A
+var times = ['Santos', 'Sport', 'Santa Cruz', 'Vasco', 'Chapecó']
+times.splice(5, 1, 'Flamengo')
+times.shift()
+times.unshift('Palmeiras')
+times.splice(6, 1, 'gremio')
+times.unshift('São Paulo', 'Santos')
+console.log(times.length)
+times.pop()
+console.log(times)
+times.sort()
+console.log(times)
+
+//atividade 2.3
+var atvdds = ['Lavar pratos', 'Tomar banho', 'Fazer suco', 'Comprar pão', 'almoçar', 'Lavar banheiro', 'Jantar']
+atvdds.reverse()
+console.log(atvdds[3], atvdds[6])
+console.log(atvdds.join(" - "))
+var atvdds2 = ['cagar', 'dormir']
+var newAtvdd = atvdds2.concat(atvdds);
+console.log(newAtvdd)
+
+//atividade 2.4
+var cidade = ['Recife', 'Itamaracá', 'Ceará', 'Fortaleza', 'Jaboatão']
+cidade.sort()
+cidade.shift()
+cidade.pop()
+cidade.sort()
+console.log(cidade)
